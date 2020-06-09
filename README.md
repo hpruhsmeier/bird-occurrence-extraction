@@ -1,2 +1,2 @@
 # bird-occurrence-extraction
-A Python script that will extract avian occurrence data for over 840 bird species in the United States of America. This code pulls data from BISON and GBIF using the site's API. 
+A Python script that will extract avian occurrence data for over 840 bird species in the United States of America. This code pulls data from BISON and GBIF using the site's API. The user can enter in either the common name of the bird species or their 4-letter code, the year they want records for, and a state. After records are pulled, the code removes duplicates and returns a CSV file with coordinates, species scientific name, observation type, and data source. The CSV can be brought into a geographic information system.  
